@@ -13,14 +13,19 @@ class Program
         // int the_number=int.Parse(string_number);
 
         string correct="incorrect";
+
         int guesses=0;
+
         while(correct!="correct"){
         Console.WriteLine("What is your guess?");
+
         string guess=Console.ReadLine();
+
         int the_guess=int.Parse(guess);
 
         if (the_number==the_guess){
             Console.WriteLine($"You guessed it in {guesses} attempts!");
+
             Console.WriteLine("Do you want to play again?");
             string repeat=Console.ReadLine();
             if (repeat=="Yes"|| repeat=="y"){
