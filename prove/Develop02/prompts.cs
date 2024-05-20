@@ -12,7 +12,7 @@ class Journal{
         "If I had one thing I could do over today, what would it be?"
     };
     private List<string> _inputs= new List<string>();
-    private List<DateTime> _timestamps=new List<DateTime>();
+    private List<DateTime> _timestamps=new List<DateTime>;
     public void WriteEntry()
     {
         Random random = new Random();
