@@ -51,6 +51,6 @@ public class Scripture{
             renderedText.Append(word.GetRenderedText());
             renderedText.Append(" ");
         }
-        return renderedText.ToString().TrimEnd();
+        return renderedText.ToString();
     }
 }
